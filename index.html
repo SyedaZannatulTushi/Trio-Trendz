@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trio Trendz</title>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 </head>
@@ -18,7 +18,7 @@
             </div>
         </nav>
         <div class="banner bg-[#ede2d09a] min-h-[500px] flex flex-col
-        md:flex-row ">
+        md:flex-row shadow-lg ">
             
             <div class="right-div w-full md:w-1/2 p-5 flex justify-center items-center">
                 <div>
@@ -32,61 +32,142 @@
         </div>
 
     </header>
-    <main class="py-20 mx-auto max-w-[1040px]">
+    <main class="py-40 mx-auto max-w-[1040px]">
         <h2 class="text-5xl font-bold text-center mb-8 text-[#4B3832]">Our Collections</h2>
-
-        <div class=" grid grid-cols-2 md:grid-cols-3 gap-3 lg:ml-[100px]">
+        <!-- card section -->
+        <div class=" grid grid-cols-2 md:grid-cols-3 gap-3 lg:ml-[100px] ">
             <!-- 1st card -->
-            <div class="card-img shadow-lg max-w-60 p-3 flex flex-col items-center">
+            <div class=" shadow-lg max-w-60 p-3 flex flex-col items-center transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 ...">
                 <img class="w-full h-65 object-cover rounded" src="images/Sareees/SA-8.jpeg" alt="">
                 <h4 class="mt-2 font-bold text-[#4B3832]">Saree Collection</h4>
                 <p class="text-sm text-[#6B5E57]">"Sarees That Define Your Beauty"</p>
-                 <button class="btn btn-secondary w-full mt-4">Explore</button>    
+                 <button id="saree-btn" class="btn btn-secondary w-full mt-4">Explore</button>    
             </div>
             <!-- 2ND card -->
-            <div class="card-img shadow-lg max-w-60 p-3 flex flex-col items-center">
+            <div class=" shadow-lg max-w-60 p-3 flex flex-col items-center transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 ...">
                 <img class="w-full h-65 object-cover rounded" src="images/pakistani dresses/P-10.jpeg" alt="">
                 <h4 class="mt-2 font-bold text-[#4B3832]">Three Piece Collection </h4>
                 <p class="text-sm text-[#6B5E57]">"Effortless Elegance in Every Stitch"</p>
-                 <button class="btn btn-secondary w-full mt-4">Explore</button>    
+                 <button id="three-pice-btn" class="btn btn-secondary  w-full mt-4">Explore</button>    
             </div>
             <!-- 3rd card -->
-            <div class="card-img shadow-lg max-w-60 p-3 flex flex-col items-center">
+            <div class=" shadow-lg max-w-60 p-3 flex flex-col items-center transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 ...">
                 <img class="w-full h-65 object-cover rounded" src="images/Western Dresses/w-11.jpeg" alt="">
                 <h4 class="mt-2 font-bold text-[#4B3832]">Western Collection</h4>
                 <p class="text-sm text-[#6B5E57]">"Effortless Fashion, Bold You"</p>
-                 <button class="btn btn-secondary w-full mt-4">Explore</button>    
+                 <button id="western-btn" class="btn btn-secondary w-full mt-4">Explore</button>    
             </div>
             <!-- 4th card -->
-            <div class="card-img shadow-lg max-w-60 p-3 flex flex-col items-center">
+            <div class=" shadow-lg max-w-60 p-3 flex flex-col items-center transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 ...">
                 <img class="w-full h-65 object-cover rounded" src="images/Show/S-10.jpg" alt="">
                 <h4 class="mt-2 font-bold text-[#4B3832]">show Collection</h4>
                 <p class="text-sm text-[#6B5E57]">"Step Into the Spotlight"</p>
-                 <button class="btn btn-secondary w-full mt-4">Explore</button>    
+                 <button id="show-btn" class="btn btn-secondary w-full mt-4">Explore</button>    
             </div>
             <!-- 5th card -->
-            <div class="card-img shadow-lg max-w-60 p-3 flex flex-col items-center">
+            <div class=" shadow-lg max-w-60 p-3 flex flex-col items-center transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 ...">
                 <img class="w-full h-65 object-cover rounded" src="images/Jewellery/j-7.jpg" alt="">
                 <h4 class="mt-2 font-bold text-[#4B3832]">Jewellery Collection</h4>
                 <p class="text-sm text-[#6B5E57]">“Glam Up, Shine On”</p>
-                 <button class="btn btn-secondary w-full mt-4">Explore</button>    
+                 <button id="jewellery-btn" class="btn btn-secondary w-full mt-4">Explore</button>    
             </div>
             <!-- 6th card -->
-            <div class="card-img shadow-lg max-w-60 p-3 flex flex-col items-center">
+            <div class=" shadow-lg max-w-60 p-3 flex flex-col items-center transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 ...">
                 <img class="w-full h-65 object-cover rounded" src="images/Makeup Products/M-8.jpg" alt="">
                 <h4 class="mt-2 font-bold text-[#4B3832]">Makeup Collection</h4>
                 <p class="text-sm text-[#6B5E57]">“Glow Up, Gorgeous"</p>
-                 <button class="btn btn-secondary w-full mt-4">Explore</button>    
+                 <button id="makeup-btn" class="btn btn-secondary w-full mt-4">Explore</button>    
             </div>
         </div>
+        <!--discount section  -->
+        <section class="bg-gradient-to-r from-[#c7a8a0] to-[#ede2d0] min-h-[300px] flex flex-col
+        md:flex-row shadow-lg mt-40 max-w-[1040px] mx-auto  transition delay-200 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 ...">
+        <!-- RIGHT -->
+       <div class="w-full  md:w-1/2">
+        <img class="h-90 " src="images/discount_img-removebg-preview.png" alt="">
+       </div>
+       <!-- LEFT -->
+        
+        <div class=" w-full md:w-1/2 p-5 flex justify-center items-center">
+            <h1 class="text-5xl font-bold text-[#4B3832] text-shadow-lg/50"> <span class="text-red-700">20%</span> OFF ON ALL ITEMS</h1>
 
+        </div>
+      </section>
    
       
 
     </main>
-    <footer>
 
-    </footer>
+    <footer class=" bg-[#ede2d09a] text-black py-12 mt-[40px] ">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+            
+            <div>
+                <h3 class="text-xl font-bold mb-4">TRIO TRENDZ</h3>
+                <p class="text-sm text-black">
+                    Your one-stop destination for the latest fashion trends.
+                </p>
+
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-twitter"></i>
+                
+                <div class="flex space-x-4 mt-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                </div>
+            </div>
     
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                <ul>
+                    <li class="mb-2"><a href="#" class="text-black hover:text-white transition-colors duration-300">Home</a></li>
+                    <li class="mb-2"><a href="#" class="text-black hover:text-white transition-colors duration-300">Collections</a></li>
+                    <li class="mb-2"><a href="#" class="text-black hover:text-white transition-colors duration-300">New Arrivals</a></li>
+                    <li class="mb-2"><a href="#" class="text-black hover:text-white transition-colors duration-300">Sale</a></li>
+                </ul>
+            </div>
+    
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Customer Service</h4>
+                <ul>
+                    <li class="mb-2"><a href="#" class="text-black hover:text-white transition-colors duration-300">Contact Us</a></li>
+                    <li class="mb-2"><a href="#" class="text-black hover:text-white transition-colors duration-300">FAQs</a></li>
+                    <li class="mb-2"><a href="#" class="text-black hover:text-white transition-colors duration-300">Shipping & Returns</a></li>
+                    <li class="mb-2"><a href="#" class="text-black hover:text-white transition-colors duration-300">Order Tracking</a></li>
+                </ul>
+            </div>
+    
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+                <p class="text-sm text-black mb-4">
+                    Subscribe to get the latest updates and exclusive offers.
+                </p>
+                <form class="flex">
+                    <input type="email" placeholder="Your email" class="w-full py-2 px-4 rounded-l-lg focus:outline-none text-gray-800">
+                    <button type="submit" class="bg-pink-500 text-white px-4 rounded-r-lg hover:bg-pink-600 transition-colors duration-300">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-black">
+            <p>&copy; 2025 TRIO TRENDZ. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    
+    <script src="home.js"></script>
 </body>
 </html>
