@@ -21,10 +21,10 @@ makeupBtn.addEventListener('click',function(){
     'makeup.html'
     window.location.href = 'makeup.html';
 })
-const showBtn = document.getElementById('show-btn');
-showBtn.addEventListener('click',function(){
-    'show-page.html'
-    window.location.href = 'show-page.html';
+const shoeBtn = document.getElementById('shoe-btn');
+shoeBtn.addEventListener('click',function(){
+    'shoe-page.html'
+    window.location.href = 'shoe-page.html';
 })
 const jewelleryBtn = document.getElementById('jewellery-btn');
 jewelleryBtn.addEventListener('click',function(){
